@@ -1,0 +1,9 @@
+Additional add-on components research:
+1) Prometheus
+   a) https://istio.io/latest/docs/ops/integrations/prometheus/
+   b) Used to store application metrics
+   c) Integrated with Argo Rollouts Analysis to provide metrics for progressive delivery controller to make go/no-go decision on rollout
+      i) https://argoproj.github.io/argo-rollouts/features/analysis/
+2) Kiali
+   a) https://kiali.io/docs/installation/quick-start/
+   b) Visually traffic splitting and percentages while running a rollout deployment
